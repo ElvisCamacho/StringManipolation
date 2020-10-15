@@ -1,0 +1,36 @@
+$fontColor: #0091aa;
+$colorHeading: #be4a14;
+
+
+body 
+{
+    background-color: #edb879;
+}
+
+#content  // div with id: content
+{
+    width: 1000
+}
+
+h2
+{
+    color: $colorHeading;
+}
+
+h1{
+    @extend h2;
+}
+
+li:nth-child(odd)
+{
+    background-color: red;
+    color: white;
+}
+
+li:nth-child(even)
+{
+    background-color: darkgrey;
+    color: white;
+}
+
+
